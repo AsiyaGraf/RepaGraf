@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestChangePwd
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.828 s <<< FAILURE! - in TestChangePwd
+test(TestChangePwd)  Time elapsed: 13.58 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@data-testid='account-settings-link']"}
+  (Session info: chrome=98.0.4758.81)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: '5CD101K3XV', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a00917a3b4b9614e604b9c990f115b9a, findElement {using=xpath, value=//button[@data-testid='account-settings-link']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.81, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\agraf\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50837/devtoo..., se:cdpVersion: 98.0.4758.81, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a00917a3b4b9614e604b9c990f115b9a
+	at TestChangePwd.test(TestChangePwd.java:38)
+
